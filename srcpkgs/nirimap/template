@@ -1,0 +1,16 @@
+# Template file for 'niri'
+pkgname=nirimap
+version=0.2.0
+revision=1
+build_style=cargo
+hostmakedepends="pkg-config"
+makedepends="gtk4-devel gtk4-layer-shell-devel"
+depends="niri"
+short_desc="A minimal workspace minimap overlay for the Niri Wayland compositor."
+maintainer=
+license="MIT"
+homepage="https://github.com/alexandergknoll/nirimap"
+changelog="https://github.com/alexandergknoll/nirimap/releases"
+distfiles="https://github.com/alexandergknoll/nirimap/archive/refs/tags/v${version}.tar.gz"
+checksum=90e3e70651ce804bf30437b9cf0ff27b129dd6a85feaecae3d67a25500f443a9
+
